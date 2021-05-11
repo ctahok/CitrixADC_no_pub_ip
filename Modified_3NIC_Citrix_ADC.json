@@ -141,7 +141,7 @@
         "vnetResourceGroup": "[if(equals(parameters('vnetResourceGroup'), ''), resourceGroup().name,parameters('vnetResourceGroup'))]",
         "vnetId": "[resourceId(variables('vnetResourceGroup'), 'Microsoft.Network/virtualNetworks', parameters('vnetName'))]",
 
-        //Customise names here,
+        /*Customise names here*/
 
         "VpxNamePrefix": "ADC-VPX-",
         "NicNamePrefix": "ADC-VPX-NIC-",
